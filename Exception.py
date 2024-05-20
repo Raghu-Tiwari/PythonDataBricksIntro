@@ -20,3 +20,10 @@ try:
     print(xyz)
 except (ZeroDivisionError,NameError):     #Notice paranthesis and , ;
     print("This is both erros handled")
+
+
+temp=1
+try:
+    assert temp==2
+except AssertionError:
+    print("Assertion Error is present??")
