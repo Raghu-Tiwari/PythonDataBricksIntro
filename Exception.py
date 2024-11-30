@@ -20,3 +20,11 @@ try:
     print(xyz)
 except (ZeroDivisionError,NameError):     #Notice paranthesis and , ;
     print("This is both erros handled")
+
+
+
+try:   #Done 2024Dec01
+    #1/0
+    print(xyz)
+except (ZeroDivisionError,NameError):     #Notice paranthesis and , ;
+    print("This is both erros handled")
